@@ -1,0 +1,14 @@
+
+
+CREATE SCHEMA `wallet_erp_task` ;
+
+CREATE TABLE `wallet_erp_task`.`customer` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL,
+  `country` VARCHAR(45) NOT NULL,
+  `city` VARCHAR(45) NOT NULL,
+  `address` VARCHAR(45) NOT NULL,
+  `tax_number` VARCHAR(45) NULL,
+  `active` VARCHAR(45) NOT NULL,
+  `photo` mediumblobNOT NULL,
+  PRIMARY KEY (`id`));
