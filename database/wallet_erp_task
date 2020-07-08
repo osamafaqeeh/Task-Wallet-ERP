@@ -10,5 +10,4 @@ CREATE TABLE `wallet_erp_task`.`customer` (
   `address` VARCHAR(45) NOT NULL,
   `tax_number` VARCHAR(45) NULL,
   `active` VARCHAR(45) NOT NULL,
-  `photo` mediumblobNOT NULL,
   PRIMARY KEY (`id`));
